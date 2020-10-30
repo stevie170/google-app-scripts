@@ -6,3 +6,4 @@ The course was a few years old so I had to make a few changes as I went based on
 
 This tool is a standalone script (meaning it is not attached to a specific Sheet or Doc file). It takes a Google Doc and parses the contents of the document to create and format a new markdown file from the contents of the Google Doc. I was fascinated by how it was able to handle images and fonts so well.
 
+[main.gs](main.gs) contains the main function, which calls functions from both [utils.gs](/utils.gs) and [doc-to-markdown.gs](/doc-to-markdown.gs). 
