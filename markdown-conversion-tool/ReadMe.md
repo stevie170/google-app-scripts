@@ -1,7 +1,6 @@
 # Markdown Conversion Tool
 
-This tool was created as part of a Lynda.com course I used to learn the basics of Google App Scripts.
-[Find the Lynda.com course here.](https://www.lynda.com/Developer-tutorials/Google-Apps-Script-JavaScript-Developers/580666-2.html)
+This tool was created as part of a [Lynda.com course](https://www.lynda.com/Developer-tutorials/Google-Apps-Script-JavaScript-Developers/580666-2.html) I used to learn the basics of Google App Scripts.
 
 The course was a few years old so I had to make a few changes as I went based on updates that have been made to Google's libraries, but overall it was a great introduction to Google App Scripts. 
 
