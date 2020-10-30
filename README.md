@@ -7,3 +7,7 @@ Google App Scripts is a platform that can be a powerful tool if you want to auto
 [Overview of Google App Scripts on Google's developer site, including learning tools and library documentation](https://developers.google.com/apps-script/overview)
 
 I recently had someone tell me she wanted to populate a Google Doc template with the submission from a Google Form, using an Add-on. However, she was restricted from installing Add-ons to her Google account based on HIPAA requirements. As I researched a workaround, I stumbled on Google App Scripts and dove in to find a solution for her specific problem. As I learned, I saw the potential for so many applications and projects for someone who uses Google tools heavily and wants  automated solutions.
+
+## Repository Contents
+
+This repository contains the scripts I wrote using learning tools, as well as the first script I wrote for use by the friend who asked for a specific solution. I plan to add any additional Google App Scripts I write in this repository as the need arises.
