@@ -2,7 +2,7 @@
 
 Google App Scripts is a platform that can be a powerful tool if you want to automate processes in Google Workspace (previously known as G Suite for Business). It is also available in Google Drive for users who don't use Google Workspace.
 
->You write code in modern JavaScript and have access to built-in libraries for favorite Google Workspace applications like Gmail, Calendar, Drive, and more. There's >nothing to install—we give you a code editor right in your browser, and your scripts run on Google's servers.
+>You write code in modern JavaScript and have access to built-in libraries for favorite Google Workspace applications like Gmail, Calendar, Drive, and more. There's nothing to install—we give you a code editor right in your browser, and your scripts run on Google's servers.
 
 [Overview of Google App Scripts on Google's developer site, including learning tools and library documentation](https://developers.google.com/apps-script/overview)
 
