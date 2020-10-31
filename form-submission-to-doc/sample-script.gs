@@ -7,10 +7,10 @@ function autoFillGoogleDocFromForm(e) {  // e is the parameter passed in by Goog
   var title = e.values[3];
   
   // get a reference to our Template google doc
-  var templateFile = DriveApp.getFileById("1hR0EIZo0AQV7hjSY2mQvTJMzEhWFJgevT_q1vIW_rwA");
+  var templateFile = DriveApp.getFileById("googlefileidfromurlgoeshere");
   
   // get a reference to the folder we want to create our doc in
-  var templateResponseFolder = DriveApp.getFolderById("1vxWq-zQi1jEjs-rBxlHJ91cHSsT0jWL-");
+  var templateResponseFolder = DriveApp.getFolderById("googlefileidfromurlgoeshere");
   
   var copy = templateFile.makeCopy(lastName + ", " + firstName, templateResponseFolder);
   var doc = DocumentApp.openById(copy.getId())  // open the doc in google docs; it was in google drive
