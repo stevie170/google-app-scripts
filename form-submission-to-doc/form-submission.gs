@@ -24,16 +24,16 @@ function sessionNoteSubmission(e) {
   }  
   
   var create = true;
-  var rootFolder = DriveApp.getFolderById("1OnhPmXoO9ZmukVj8RAWcm72nM3fm6MHJ") // change this to match the id of the root folder where you want to create client files
+  var rootFolder = DriveApp.getFolderById("googlefileidfromurlgoeshere") // change this to match the id of the root folder where you want to create client files
   
   // change this to find the client folder and create it if it's not there
-  // var templateResponseFolder = DriveApp.getFolderById("1OnhPmXoO9ZmukVj8RAWcm72nM3fm6MHJ");
+  // var templateResponseFolder = DriveApp.getFolderById("googlefolderidfromurlgoeshere");
   
   // find or create client folder 
   var templateResponseFolder = getFolder(clientFirstName + clientLastName, true, rootFolder); 
   
   // point to the template document  
-  var templateFile = DriveApp.getFileById("1Wh7JkUVFBHG32TFuAeJ75REA5q11G3r9RjQfCjYX030");  // change this to match the id of the Google Doc to be used as a template
+  var templateFile = DriveApp.getFileById("googlefileidfromurlgoeshere");  // change this to match the id of the Google Doc to be used as a template
   
   var copy = templateFile.makeCopy(clientFirstName + " " + clientLastName + " " + dashDate, templateResponseFolder); 
   var doc = DocumentApp.openById(copy.getId())   
