@@ -1,6 +1,7 @@
 # Form Submission to Doc
 
 This Google App Script takes the submissions from a Form and creates a new Google Doc using the information submitted.
+[form-submission.gs](/form-submission.gs)
 
 ## Deployment
 
@@ -15,7 +16,16 @@ Because of the needs of this particular project, this script also navigates the 
 ## Sample Script
 
 I'm including the basic sample script I created using a tutorial, because it was the very basic starting point for this project.
+[sample-script.gs](/sample-script.gs)
 
 ## Project Scripts
 
 As this project evolved, I ended up creating a few different scripts to do different things for different forms. These included scripts are very specific to my project, and among their functions are the navigation of google drive, creating google docs, saving the docs as pdf files, removing the docs once pdfs are created, and confirmation emails including pdf attachments.
+
+[intake-and-consent-form-signatures.gs](/intake-and-consent-form-signatures.gs)
+
+[Telehealth-consent-signatures.gs](/Telehealth-consent-signatures.gs)
+
+[school-work-excuse-note.gs](/school-work-excuse-note.gs)
+
+[session-note-creation.gs](/session-note-creation.gs)
