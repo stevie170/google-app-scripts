@@ -55,14 +55,14 @@ function excuseNoteGenerator(e) {
   }
   
 
-  var rootFolder = DriveApp.getFolderById("16jw-zaj04rDoSuQQLj3fKctcQMT0ml-c")  // change the url id number to match the id of the folder
+  var rootFolder = DriveApp.getFolderById("IDNUMBERGOESHERE")  // change the url id number to match the id of the folder
   
   // find the client folder within the root folder, or create it if it's not there 
   var templateResponseFolder = getFolder(clientFullName, true, rootFolder); 
   
   // point to the template documents  
   // change the url id numbers to match the id of each Google Doc to be used as a template
-  var templateFileForms = DriveApp.getFileById("1TxXbWJWFhMvwkQitS94C_4PRBCwSUXJ766bXZ-5S5H4");  
+  var templateFileForms = DriveApp.getFileById("IDNUMBERGOESHERE");  
 
   //
   // this next section is to create and populate the Telehealth consent form document 
@@ -90,23 +90,22 @@ function excuseNoteGenerator(e) {
   // remove the doc and just keep the pdf
   try{
     templateResponseFolder.removeFile(DriveApp.getFileById(copy.getId()));
-    // templateResponseFolder.removeFile(doc);   // this threw an error... putting it into a try catch, maybe I'll find a better option to run 
     console.log("Doc successfully removed."); 
   }catch(err){
     // The ApiException status code indicates the detailed failure reason.
     console.log("Doc not removed. Error: " + err); 
   }
   
-  // email the excuse note pdf ??
+  // email the excuse note pdf 
   
   if(emailYN == "Yes"){
     if(sendEmail == "yes"){
       // create the content for the email
-      var emailFrom = "Healing and Recovery";
+      var emailFrom = "NAME TO GO IN FROM:";
       var emailSubject = "School/Work Excuse Note";
       var emailGreeting = "To Whom It May Concern:\n\n";
       var emailContent = "Please see the attached file. \n\nIf you have any questions please contact your therapist.";
-      var emailSignature = "\n\nSincerely, \nHealing and Recovery\n860 Hebron Pkwyy Suites 802, 803, and 1102, Lewisville TX 75057\nhttps://healing-and-recovery.com";
+      var emailSignature = "\n\nSincerely, \nSIGNATURE LINE INFO HERE";
       var file = DocumentApp.openById(copy.getId());
       // send the email - try/catch is for in case there is an error
       try {
@@ -127,7 +126,7 @@ function excuseNoteGenerator(e) {
 
 // a function to get or create a folder
 // parameters: name = string 'name of folder'
-//             create = Boolean (whether we should aautomatically create the folder if we don't find it) 
+//             create = Boolean (whether we should automatically create the folder if we don't find it) 
 //             root = location of where the folder should be searched for
 function getFolder(name, create, root){
 
