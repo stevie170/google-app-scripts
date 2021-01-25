@@ -200,7 +200,7 @@ function newClientFormSubmission(e) {
   }
   
   // point to the folder where you want all the client folders to reside 
-  var rootFolder = DriveApp.getFolderById("16jw-zaj04rDoSuQQLj3fKctcQMT0ml-c")  // change the url id number to match the id of the folder
+  var rootFolder = DriveApp.getFolderById("IDNUMBERGOESHERE")  // change the url id number to match the id of the folder
  
   // I pointed this ^^^ to a temporary folder, need to get ID number of the Clients folder from Lisa (also permissions could be an issue)   
   // ******************************************************
@@ -215,7 +215,7 @@ function newClientFormSubmission(e) {
   
   // point to the template document  
   // change the url id number to match the id of the Google Doc to be used as a template
-  var templateFileForms = DriveApp.getFileById("12Ty8rAxRNl0bm0H777C1xhsuctCiPuefc5-Tcy3iAG8");  
+  var templateFileForms = DriveApp.getFileById("IDNUMBERGOESHERE");  
   
   //
   // this next section is to create and populate the Signed New Client Forms document 
