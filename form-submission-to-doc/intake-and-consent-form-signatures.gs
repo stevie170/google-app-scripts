@@ -202,11 +202,6 @@ function newClientFormSubmission(e) {
   // point to the folder where you want all the client folders to reside 
   var rootFolder = DriveApp.getFolderById("IDNUMBERGOESHERE")  // change the url id number to match the id of the folder
  
-  // I pointed this ^^^ to a temporary folder, need to get ID number of the Clients folder from Lisa (also permissions could be an issue)   
-  // ******************************************************
-  // ******************************************************
-  // ******************************************************
-
   // combine first and last name
   var clientFullName = clientFirstName + " " + clientLastName
 
@@ -605,11 +600,11 @@ function newClientFormSubmission(e) {
     var emailSubject = "Thank you for submitting your new client paperwork!";
     var emailGreeting = "Dear " + sigFirstName + ",\n\n";
     var emailContent = "Thank you for submitting your new client paperwork! We look forward to seeing you in the office soon. \n\nIf you have any questions please feel free to contact us. We recommend contacting your therapist directly, or you may call the number below.";
-    var emailSignature = "\n\nSincerely, \nHealing and Recovery\n972-878-8527\n860 Hebron Pkwyy Suites 802, 803, and 1102, Lewisville TX 75057\nhttps://healing-and-recovery.com";
+    var emailSignature = "\n\nSincerely, \nSIGNATURE LINE GOES HERE";
     // send the email - try/catch is for in case they enter an invalid email address
     try {
       if(emailConsent !== ""){   // check for permission first...
-        MailApp.sendEmail(emailAddr, "office@healing-and-recovery.com", emailSubject, emailGreeting + emailContent + emailSignature);
+        MailApp.sendEmail(emailAddr, emailSubject, emailGreeting + emailContent + emailSignature);
         console.log("Email sent successfully.");
       } 
     }catch (err) {
