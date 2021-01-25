@@ -18,4 +18,4 @@ I'm including the basic sample script I created using a tutorial, because it was
 
 ## Project Scripts
 
-As this project evolved, I ended up creating a few different scripts to do different things for different forms. These included scripts are very specific to my project, and are very similar to each other.
+As this project evolved, I ended up creating a few different scripts to do different things for different forms. These included scripts are very specific to my project, and among their functions are the navigation of google drive, creating google docs, saving the docs as pdf files, removing the docs once pdfs are created, and confirmation emails including pdf attachments.
