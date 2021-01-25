@@ -100,13 +100,13 @@ function telehealthConsent(e) {
   // send a confirmation email 
   // get just the first name for the greeting
   sigFirstName = consentTeleSigName.split(/\s(.+)/)[0];
-  MailApp.sendEmail(emailAddr, "Thank you for completing your telehealth consent form", "Dear " + sigFirstName + ",\n\nThank you for submitting your telehealth consent form. We look forward to seeing you soon. \n\nIf you have any questions please feel free to contact us. We recommend contacting your therapist directly, or you may call the number below. \n\nSincerely, \nHealing and Recovery\n972-878-8527\n860 Hebron Pkwyy Suites 802, 803, and 1102, Lewisville TX 75057\nhttps://healing-and-recovery.com");
+  MailApp.sendEmail(emailAddr, "Thank you for completing your telehealth consent form", "Dear " + sigFirstName + ",\n\nThank you for submitting your telehealth consent form. We look forward to seeing you soon. \n\nIf you have any questions please feel free to contact us. We recommend contacting your therapist directly, or you may call the number below. \n\nSincerely, \nPRACTICE NAME\nPHONE NUMBER\nADDRESS\nEMAIL OR WEB ADDRESS");
 
 }
 
 // a function to get or create a folder
 // parameters: name = string 'name of folder'
-//             create = Boolean (whether we should aautomatically create the folder if we don't find it) 
+//             create = Boolean (whether we should automatically create the folder if we don't find it) 
 //             root = location of where the folder should be searched for
 function getFolder(name, create, root){
 
