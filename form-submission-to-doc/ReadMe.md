@@ -15,3 +15,7 @@ Because of the needs of this particular project, this script also navigates the 
 ## Sample Script
 
 I'm including the basic sample script I created using a tutorial, because it was the very basic starting point for this project.
+
+## Project Scripts
+
+As this project evolved, I ended up creating a few different scripts to do different things for different forms. These included scripts are very specific to my project, and are very similar to each other.
