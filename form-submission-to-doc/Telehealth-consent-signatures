@@ -82,7 +82,7 @@ function telehealthConsent(e) {
   // remove empty paragraphs from the document
   removeEmptyParagraphs(body);
 
-  doc.saveAndClose();  // save and close the Signed Forms document
+  doc.saveAndClose();  // save and close the document
 
   // save the doc as a pdf file
   var blobPdf = copy.getAs(MimeType.PDF);
