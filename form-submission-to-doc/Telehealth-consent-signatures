@@ -41,14 +41,14 @@ function telehealthConsent(e) {
     dashTime = dashTime.replace(":","-");   
   }  
 
-  var rootFolder = DriveApp.getFolderById("16jw-zaj04rDoSuQQLj3fKctcQMT0ml-c") // change this to match the id of the root folder where you want to create client files
+  var rootFolder = DriveApp.getFolderById("IDNUMBERGOESHERE") // change this to match the id of the root folder where you want to create client files
   
   // find the client folder within the root folder, or create it if it's not there 
   var templateResponseFolder = getFolder(clientFullName, true, rootFolder); 
   
   // point to the template documents  
   // change the url id numbers to match the id of each Google Doc to be used as a template
-  var templateFileForms = DriveApp.getFileById("1c96i2dPYkPSdOjcjbRtqQs7INM22kxvpQiVM99HM8b0");  
+  var templateFileForms = DriveApp.getFileById("IDNUMBERGOESHERE");  
 
   //
   // this next section is to create and populate the Telehealth consent form document 
