@@ -19,12 +19,6 @@ function soapProgressNote(e) {
 
   // renumber all of these values ^^^ if the form changes... 
   
-  // ************************************************
-  // change date format to yyyy-mm-dd
-  // pull out the month, date, and year then create the newly formatted date
-  // use the method below 
-  // ************************************************
-
   // // format the session date: pull the month, day, and year out of the date and format it yyyy-mm-dd
   var sessionDateArray = [];
   sessionDateArray = sessionDate.split("/");
@@ -121,7 +115,7 @@ if(plansNext !== ""){
 
   // end of replacing text tags in the document
   
-  doc.saveAndClose();  // save and close the Signed Forms document
+  doc.saveAndClose();  // save and close the document
    
 }
 
