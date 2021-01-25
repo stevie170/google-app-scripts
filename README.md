@@ -10,4 +10,4 @@ I recently had someone tell me she wanted to populate a Google Doc template with
 
 ## Repository Contents
 
-This repository contains the scripts I wrote using learning tools, as well as the first script I wrote for use by the friend who asked for a specific solution. I plan to add any additional Google App Scripts I write in this repository as the need arises.
+This repository contains the scripts I wrote using learning tools, the first script I wrote for use by the friend who asked for a specific solution, plus a few more scripts I've written to automate forms for a therapy practice. I plan to add any additional Google App Scripts I write in this repository as the need arises.
