@@ -6,7 +6,8 @@ function onOpen() {  // when the file opens, add a custom menu
       .addToUi();
 }
 
-function formatSquareCsvData() {
+function formatSquareCsvData() { // this is the function that runs when the user chooses the associated custom menu option
+  
   var spreadsheet = SpreadsheetApp.getActive(); // get the active spreadsheet
   var sheet = spreadsheet.getActiveSheet(); // get the active sheet
   sheet.getRange(1, 1, sheet.getMaxRows(), sheet.getMaxColumns()).activate();  // select all
