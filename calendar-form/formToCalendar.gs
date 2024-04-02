@@ -91,7 +91,7 @@ function datesToCalendar(e) {
     // create the content for the email
       var emailAddr = "test@test.com"; // customize this with the email you want to send notification to
       var emailFrom = "Summer 2024 out of town dates";
-      var emailSubject = "Follow up with" + nameOrFamilyName;
+      var emailSubject = "Follow up with " + nameOrFamilyName;
       var emailContent = nameOrFamilyName + " has indicated they will be out of town more than the form could hold. \n\nFollow up to see when they will be out of town and add it to the summer calendar.";
       // send the email - try/catch is for in case there is an error
       try {
